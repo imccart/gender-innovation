@@ -1,0 +1,52 @@
+# Claude Code (local only, not for public repos)
+CLAUDE.md
+MEMORY.md
+agent_history.md
+.claude/
+.claudeignore
+
+# Data (track code, not data)
+data/
+
+# Submission materials — referee comments, response letters, cover letters,
+# COI disclosure forms, signature images. Never in a repo that may go public.
+submissions/
+paper/submissions/
+
+# Background literature (PDFs, notes — not tracked)
+background/
+
+# Working markdown — planning docs, design notes, hypotheses/insights/decisions, review outputs
+notes/
+
+# Scratch/temporary files
+scratch/
+
+# LaTeX intermediate files
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.run.xml
+*.synctex.gz
+*.lof
+*.lot
+*.idx
+*.ilg
+*.ind
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Quarto intermediates
+*_files/
+.quarto/

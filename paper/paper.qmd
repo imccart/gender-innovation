@@ -1,0 +1,29 @@
+---
+title: "Gender and Innovation in Sex-Specific Medical Fields"
+author:
+  - name: Ian McCarthy
+    affiliations:
+      - name: Emory University
+        department: Department of Economics
+date: today
+abstract: |
+  Abstract text here.
+format:
+  pdf:
+    documentclass: article
+    geometry: margin=2.3cm
+    fontsize: 12pt
+    pdf-engine: xelatex
+    cite-method: natbib
+    biblio-style: aer
+    number-sections: true
+    keep-tex: false
+    include-in-header:
+      - text: |
+          \usepackage{booktabs}
+          \usepackage{setspace}
+          \onehalfspacing
+bibliography: BibTeX_Library.bib
+---
+
+# Introduction
